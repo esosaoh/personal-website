@@ -9,7 +9,7 @@ export const projects = [
     {
       title: 'ListenUP',
       description: 'Seamless playlist migration from Spotify to YouTube Music',
-      mediaUrl: '/personal-website/ListenUp.webp', 
+      mediaUrl: '/personal-website/ListenUP.webp', 
       githubUrl: 'https://github.com/esosaoh/ListenUP'
     },
     {
