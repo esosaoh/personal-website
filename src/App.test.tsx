@@ -1,9 +1,10 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import { personalInfo } from './data/projects';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders profile name', () => {
+  render(<App profile={personalInfo} />);
+  const nameElement = screen.getByText(personalInfo.name);
+  expect(nameElement).toBeInTheDocument();
 });
