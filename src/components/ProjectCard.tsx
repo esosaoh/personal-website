@@ -1,12 +1,5 @@
-
 import React from 'react';
-
-interface ProjectCardProps {
-  title: string;
-  description: string;
-  mediaUrl: string;  
-  githubUrl?: string;
-}
+import type { ProjectCardProps } from '../types';
 
 const isVideo = (url: string) => {
   return url.toLowerCase().endsWith('.webm');

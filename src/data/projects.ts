@@ -39,5 +39,15 @@ export const projects = [
   export const personalInfo = {
     name: "Esosa Ohangbon",
     photoUrl: "/personal-website/profilephoto.webp",
-    about: "I'm a sophomore Software Engineering student at Carleton University. I'm interested in full-stack development, AI, infrastructure, distributed systems, compilers and open-source projects."
+    bio: "I'm a sophomore Software Engineering student at Carleton University. I'm interested in full-stack development, AI, infrastructure, distributed systems, compilers and open-source projects.",
+    socialLinks: [
+      {
+        name: "GitHub",
+        url: "https://github.com/esosaoh"
+      },
+      {
+        name: "LinkedIn",
+        url: "https://linkedin.com/in/esosaoh"
+      }
+    ]
   };

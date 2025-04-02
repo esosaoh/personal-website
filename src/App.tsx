@@ -1,24 +1,22 @@
 import React from 'react';
-import { ProjectCard } from './components/ProjectCard';
 import { ProfilePhoto } from './components/ProfilePhoto';
 import { About } from './components/About';
-import { projects, personalInfo } from './data/projects';
+import { ProjectCard } from './components/ProjectCard';
+import { projects } from './data/projects';
+import type { AppProps } from './types';
 import './App.css';
 
-function App() {
+export const App: React.FC<AppProps> = ({ profile }) => {
   return (
     <div className="container">
       {/* Header with photo */}
       <div className="header mb-8">
-        <ProfilePhoto 
-          photoUrl={personalInfo.photoUrl} 
-          name={personalInfo.name} 
-        />
+        <ProfilePhoto photoUrl={profile.photoUrl} name={profile.name} />
       </div>
       
       {/* About Section */}
       <div className="mb-8">
-        <About />
+        <About bio={profile.bio} socialLinks={profile.socialLinks} />
       </div>
       
       {/* Projects Section */}
@@ -38,6 +36,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;

@@ -2,14 +2,13 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://esosaoh.github.io/personal-website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.126",
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -22,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "git config --global commit.gpgsign false && gh-pages -d build -b gh-pages && git config --global commit.gpgsign true"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,7 +42,8 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
     "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://esosaoh.github.io/personal-website"
+  }
 }

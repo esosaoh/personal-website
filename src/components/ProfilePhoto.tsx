@@ -1,9 +1,5 @@
 import React from 'react';
-
-interface ProfilePhotoProps {
-  photoUrl: string;
-  name: string;
-}
+import type { ProfilePhotoProps } from '../types';
 
 export const ProfilePhoto: React.FC<ProfilePhotoProps> = ({ photoUrl, name }) => {
   return (
