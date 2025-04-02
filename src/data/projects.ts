@@ -1,7 +1,7 @@
 // src/data/projects.ts
 export const projects = [
     {
-      title: 'GitMentor',
+      title: 'GitMentor - cuHacking 6',
       description: 'An AI-assistant for open-source contributors',
       mediaUrl: 'GitMentor.webp', 
       githubUrl: 'https://github.com/esosaoh/git-mentor'
@@ -24,7 +24,7 @@ export const projects = [
       mediaUrl: 'kubewarden.webp', 
     },
     {
-      title: 'Carleton Courses',
+      title: 'Carleton Courses - Hack The Tunnels 2024',
       description: 'A redesigned student portal with improved course search and scheduling features.',
       mediaUrl: 'carletoncourses.webp', 
       githubUrl: 'https://github.com/esosaoh/hack-the-tunnels'
