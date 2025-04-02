@@ -22,6 +22,7 @@ export const projects = [
       title: 'Kubewarden (Open-source)',
       description: 'A WebAssembly-powered Kubernetes policy engine with 1.3K+ stars on GitHub.',
       mediaUrl: 'kubewarden.webp', 
+      githubUrl: 'https://github.com/kubewarden'
     },
     {
       title: 'Carleton Courses - Hack The Tunnels 2024',
