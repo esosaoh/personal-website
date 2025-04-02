@@ -26,7 +26,7 @@ jobs:
         run: npm ci
           
       - name: Build project
-        run: PUBLIC_URL=https://esosaoh.github.io/personal-website npm run build
+        run: REACT_APP_PUBLIC_URL=https://esosaoh.github.io/personal-website npm run build
           
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
