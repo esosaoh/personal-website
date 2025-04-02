@@ -43,11 +43,11 @@ export const projects = [
     socialLinks: [
       {
         name: "GitHub",
-        url: "https://github.com/esosaoh"
+        url: "https://github.com/esosaoh"   
       },
       {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/esosaoh"
+        url: "https://linkedin.com/in/esosaohangbon"
       }
     ]
   };
